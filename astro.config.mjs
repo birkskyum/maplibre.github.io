@@ -4,7 +4,7 @@ import mdx from "@astrojs/mdx";
 import solidJs from "@astrojs/solid-js";
 
 export default defineConfig({
-  base: "",
+  base: "maplibre.github.io/",
   integrations: [mdx(), solidJs()],
   output: "static",
 });
